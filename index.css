@@ -1,0 +1,45 @@
+#show-contact {
+    /* display: none; */
+  }
+  
+  .contact {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  
+  .contact:hover {
+    text-decoration: underline;
+  }  
+
+  .one{
+    /* text-align: center; */
+    margin: 0 auto;
+    width: 40%;
+  
+  }
+
+  .two{
+    background-color: gray;
+    margin-top:100px;
+    color: white;
+    width:30%;
+    /* display: flex; */
+    margin:0 auto ;
+  }
+  .contact{
+    color: black;
+    margin:0 auto ;
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: blanchedalmond;
+    width: 30%;
+  }
+ .btn{
+   background-color: grey;
+ }
+
+ .show{
+   padding-top:150px;
+   margin-top:50px;
+   width: 100%;
+ }

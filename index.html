@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    
+        <div class="container-fliud">
+          <h1 class="text-center">Address book</h1>
+           <div class="row">
+            <div class="col-lg-12 col-md-6 text-center">
+              <h2 class="text-center pt-5">Add a contact:</h2>
+              <form id="new-contact" class="one bg-warning p-5" >
+                <div class="form-group">
+                  <label for="new-first-name">First name</label>
+                  <input type="text" class="form-control" id="new-first-name">
+                </div>
+                <div class="form-group">
+                  <label for="new-last-name">Last name</label>
+                  <input type="text" class="form-control" id="new-last-name">
+                </div>
+    
+                <button type="submit" class="btn btn:focus">Add</button>
+              </form>
+    
+              <h2 class="text-center">Contacts:</h2>
+              <ul id="contacts">
+    
+              </ul>
+            </div>
+
+
+          <div class="col-lg-12 col-md-6  text-center bg-primary show" >
+                <div id="show-contact" class="two">
+                  <h2><strong></strong></h2>
+              
+                  <p>First name: <span class="first-name"></span></p>
+                  <p>Last name: <span class="last-name"></span></p>
+                </div>
+              </div>  
+
+          </div>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+</body>
+</html>
